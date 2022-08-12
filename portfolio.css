@@ -11,6 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
+    font-family: 'Dancing Script', cursive;
     
 }
 header{
@@ -35,15 +36,20 @@ h2{
 
    /* background-color: lightblue;*/
     
-    
-    
-   
-
 }
 
 nav{
     margin:1em 1em;
+   position: fixed;
+   z-index: 10;
+  
+   /*display: flex;*/
+    right: 4%;
+    flex-direction: row;
+    padding: 1rem;
+    font-size:larger;
     
+
     
     
 }
@@ -66,13 +72,16 @@ section{
 
 }
 .intro{
-    width: 60vw;
+    width: 700px;
     height: auto;
     background-color:  rgb(230, 200, 205); 
     padding: 1em 1em;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-size: 40px;
+   
   
 }
 footer{
