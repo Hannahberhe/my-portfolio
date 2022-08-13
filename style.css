@@ -1,4 +1,4 @@
-*{
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
@@ -33,25 +33,23 @@ h2{
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
+    font-size: 80px;
+    display: flex;
+    end
 
    /* background-color: lightblue;*/
-    
-}
+
+/*}
 
 nav{
-    margin:1em 1em;
+    margin: 2px; ;
    position: fixed;
-   z-index: 10;
-  
-   /*display: flex;*/
-    right: 4%;
-    flex-direction: row;
-    padding: 1rem;
-    font-size:larger;
-    
-
-    
-    
+   z-index: 20;
+   display: flex;
+   flex-direction:row;
+   padding: 2rem;
+   font-size:60px;
+   
 }
 main{
     display: flex;
@@ -74,13 +72,14 @@ section{
 .intro{
     width: 700px;
     height: auto;
-    background-color:  rgb(230, 200, 205); 
+    background-color: rgb(17, 18, 19, 0.52)
     padding: 1em 1em;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     border-radius: 25px;
     font-size: 40px;
+    color:rgb(230, 200, 205);
    
   
 }
@@ -91,6 +90,40 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    background-color:rgb(230, 200, 205);  
    
 
+}*/
+/*index.html*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: rgba(28, 31, 35, 0.52);
+  color: rgb(230, 200, 205);
+  border: 100%;
+}
+
+.class {
+  border: 2px solid black;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+ul {
+  float: right;
+  margin: right 0;
+  flex-direction: column;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(230, 200, 205);
+  text-align: center;
 }
