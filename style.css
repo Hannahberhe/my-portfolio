@@ -198,7 +198,13 @@ nav ul li{
           font-size:40px;
           text-align-last: center;
   } 
-  
+  a DOWNLOAD RESUME{
+    font-size: medium;
+  height: 25%;
+  width: 25%;
+  text-align: center;
+    
+  }
   h1{
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 40px;
