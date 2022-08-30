@@ -1,167 +1,4 @@
-/*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-}
-body{
-    background-color: rgb(223, 199, 204); 
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(17, 18, 19, 0.52), rgba(14, 12, 13, 0.73)),url(img/michael-baccin-XopauR-Nagk-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    font-family: 'Dancing Script', cursive;
-    
-}
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
 
-}
-h1{
-    margin:1em 1em;
-    color:  rgb(230, 200, 205); 
-
-}
-h2{
-    color:   rgb(230, 200, 205); 
-    border: 1px solid rgb(150, 133, 133);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    font-size: 80px;
-    display: flex;
-    end
-
-   /* background-color: lightblue;*/
-
-/*}
-
-nav{
-    margin: 2px; ;
-   position: fixed;
-   z-index: 20;
-   display: flex;
-   flex-direction:row;
-   padding: 2rem;
-   font-size:60px;
-   
-}
-main{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 60vh;
-
-} 
-section{
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-
-
-
-}
-.intro{
-    width: 700px;
-    height: auto;
-    background-color: rgb(17, 18, 19, 0.52)
-    padding: 1em 1em;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    border-radius: 25px;
-    font-size: 40px;
-    color:rgb(230, 200, 205);
-   
-  
-}
-footer{
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    background-color:rgb(230, 200, 205);  
-   
-
-}*/
-/*index.html*/
-/* {
-  margin: 0;
-  padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-body {
-  background-color: rgba(28, 31, 35, 0.52);
-  color: rgb(230, 200, 205);
-  border: 100%;
-}
-
-header{
-    
-    width: 700px;
-    height: 15%;
-    background-color: rgb(17, 18, 19, 0.52)
-    padding: 1em 1em;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    font-size: 40px;;
-    
-}
-.class {
-  border: 2px solid black;
-}
-img {
-    position: relative;
-  width: 50%;
-  bottom: 5px;
-  border: 3px solid  rgb(230, 200, 205);
-  width: 200px;
-  height: 200px;
-  margin: auto ;
-
-
-}
-p{
-    border: 5px solid rgb(230, 200, 205);
-    width: 700px;
-    height: 300px;
-    background-color: rgb(17, 18, 19, 0.52)
-    padding: 1em 1em;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    border-radius:10px;
-    font-size:40px;
-    
-   
-}
-ul{
-    float: right;
-  margin: right 0;
-flex-direction: row;
-
-
-}
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10%;
-  background-color: rgb(230, 200, 205);
-  text-align: center;
-}*/
 /* test2*/
 *{
   margin: 0;
@@ -169,7 +6,8 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body{
- 
+ display: flex;
+ flex-direction: column;
 
 }
 .logo{
@@ -233,16 +71,19 @@ nav ul li{
   }
   
   .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
     border-radius: 500px;
     background-color: rgba(18, 19, 20, 0.52);
     padding: 20px;
-    width: 90%; 
+     
     }
-
-
-  h1{
+h1{
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
+   text-align: center;
   }
 footer {
   position: fixed;
